@@ -1,0 +1,195 @@
+body{
+    font-family: verdana,"微软雅黑";
+    background-color: #3b62a1;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+}
+.wrap{
+    position: relative;
+    height: auto;
+    width: 750px;
+    background:#edf0f6;
+    border-radius: 3px;
+    margin: 7% auto 0px;
+    animation: none;
+    z-index: 10;
+}
+.container{
+    width: 640px;
+    margin: 0 auto;
+    padding: 0 0 70px;
+}
+.step{
+    position:relative;
+    height:150px;
+}
+p.navbg {
+    width: 100%;
+    height: 2px;
+    background: #cacdd1;
+    position: absolute;
+    top:40%;
+}
+p.navon{
+    width:2%;
+    height:2px;
+    background:#3b62a1;
+    position:absolute;
+    top:40%;
+}
+.step ul{
+    position:absolute;
+    top: 20%;
+    padding-left:0px;
+}
+.step ul li{
+    float: left;
+    text-align: center;
+    margin:0 110px;
+    width: 95px;
+}
+.step ul li.on{
+    color:#3b62a1;
+}
+.step ul li.on div{
+    background:#3b62a1;
+}
+.step ul li div{
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background: #cacdd1;
+    border-radius: 0;
+    color: #fff;
+    font-size: 26px;
+    border-radius: 50%;
+    -ms-border-radius: 50%;
+    margin: 0 auto;
+}
+.step span{
+    color:#999;
+}
+.step span.active{
+    color: #3b62a1;
+}
+.step i{
+    background: #004E90;
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.time{
+    margin-bottom: 20px;
+    padding-top:15px
+}
+.time strong{
+    font-size: 24px;
+    font-weight: normal;
+    color: #e4393c;
+}
+.notic p{
+    line-height: 22px;
+}
+.notic p span{color:#e4393c;}
+.infomation{
+    margin-top: 10px;
+    border-radius: 1px;
+    border: 1px solid #cbd8e4;
+    background: #fff;
+}
+.infomation ul{
+    padding-left: 10px;
+}
+.infomation ul li{
+    line-height: 32px;
+    border-bottom: 1px solid #f9f9f9;
+    overflow: hidden;
+}
+.infomation ul li>span{
+    width: 224px;
+    float:left;
+    text-align: right;
+    border-right: 1px solid #f9f9f9;
+}
+.infomation ul li p{
+    float:left;
+    width: 390px;
+    margin: 0px;
+}
+.infomation ul li p span{
+    text-align: left;
+    color: #e4393c;
+    display: inline-block;
+    width: 75%;
+    padding-left: 10px;
+}
+.infomation ul li p a{
+    text-decoration: none;
+    display: inline-block;
+    background: #5e6bb5;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: baseline;
+    padding: 1px 5px;
+    border-radius: 3px;
+    text-align: right;
+    margin-top: 3px;
+}
+.infomation ul li p a:hover,.completed a:hover{
+    background:#3b62a1;
+    color: #FFF;
+}
+.completed{
+    padding: 10px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.completed a{
+    background: #5e6bb5;
+    border-color: #3b62a1;
+    display: block;
+    float: left;
+    padding: 10px;
+    width: 25%;
+    margin: 0 auto 0 15%;
+    webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.completed a:nth-child(1){
+}
+.loadText{
+    text-align: center;
+    color: #e4393c;
+    font-size:18px;
+    margin:40px 0 60px;
+}
+.close{
+    background: #5e6bb5;
+    border-color: #3b62a1;
+    display: block;
+    padding: 10px;
+    width: 25%;
+    margin: 0 auto;
+    webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.completed .fa-spinner{
+    display: none;
+}
+.close:hover,.sub-btn:hover{text-decoration: underline;}
+.sub-btn{outline: none;cursor:pointer;border: 1px solid #003399;background: #fff;padding: 5px 20px;border-radius: 15px;color: #003399;}
+.sub-btn i{display: none;}
